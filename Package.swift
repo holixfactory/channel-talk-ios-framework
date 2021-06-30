@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ChannelIO",
-            url: "https://mobile-static.channel.io/ios/9.0.0/spm-hook.zip",
-            checksum: "5d51d72b258d75d5e51997a4abfffd2e630be41e29c2e74580334211770eb6c3"
+            url: "https://mobile-static.channel.io/ios/9.0.1/spm-hook.zip",
+            checksum: "a8792226c307883445b918bbbe0827b417491a99403523323bdcc6ee86a8593b"
         )
     ],
     swiftLanguageVersions: [.v5]
