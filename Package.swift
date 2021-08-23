@@ -9,11 +9,11 @@ let package = Package(
     products: [
         .library(
             name: "ChannelIOSDK",
-            targets: ["ChannelIOFront"]),
+            targets: ["ChannelIO"]),
     ],
     targets: [
         .binaryTarget(
-            name: "ChannelIOFront",
+            name: "ChannelIO",
             url: "https://cf.exp.channel.io/file/2329/612399f401e94624a42a/spm-xcframework.zip",
             checksum: "a028604a368cdd3dbb143825757bccd5516735f3d404fe9c045906022f03568d"
         )
