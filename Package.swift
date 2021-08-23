@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "ChannelIOSDK",
+    name: "ChannelIOFront",
     platforms: [
         .iOS(.v11),
         ],
     products: [
         .library(
-            name: "ChannelIOSDK",
-            targets: ["ChannelIO"]),
+            name: "ChannelIOFront",
+            targets: ["ChannelIOFront"]),
     ],
     targets: [
         .binaryTarget(
-            name: "ChannelIO",
-            url: "https://mobile-static.channel.io/ios/9.0.1/spm-xcframework.zip",
-            checksum: "c720cf22fec953e52fc0778cabff9f1bbe495831ca62af148e847b88e4b144cd"
+            name: "ChannelIOFront",
+            url: "https://cf.exp.channel.io/file/2329/612398011c3e7f534395/spm-xcframework.zip",
+            checksum: "f0b4b60eaa8508dfdd5925ae124acdd6fcd9f5d09b4b2a86eadfdee7a00cb7a1"
         )
     ],
     swiftLanguageVersions: [.v5]
