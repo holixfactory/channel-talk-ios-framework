@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "ChannelIOSDK",
-            targets: ["ChannelIO"]),
+            targets: ["ChannelIOFront"]),
     ],
     targets: [
         .binaryTarget(
