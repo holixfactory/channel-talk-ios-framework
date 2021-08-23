@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "ChannelIOFront",
+    name: "ChannelIOSDK",
     platforms: [
         .iOS(.v11),
         ],
     products: [
         .library(
-            name: "ChannelIOFront",
+            name: "ChannelIOSDK",
             targets: ["ChannelIOFront"]),
     ],
     targets: [
