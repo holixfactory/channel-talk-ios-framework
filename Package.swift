@@ -8,7 +8,7 @@ let package = Package(
         ],
     products: [
         .library(
-            name: "ChannelIOSDK",
+            name: "ChannelIOFront",
             targets: ["ChannelIOFront"]),
     ],
     targets: [
